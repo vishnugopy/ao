@@ -1,0 +1,134 @@
+html {
+  font-family: Montserrat, sans-serif;
+  box-sizing:
+  line-height: 1.5;
+}
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+html, body, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background:#010b14;
+  color:white;
+  padding:10px;
+  }
+
+header img{
+  border-radius:50%;
+}
+
+header nav li{
+  list-style:none;
+}
+
+nav,span {
+  color:white;
+  margin-left:20px;
+  }
+
+
+i{
+  color:white;
+  }
+
+main{
+  background:#ef5634;
+}
+
+a{
+  text-decoration:none;
+ }
+
+main{
+  color:white;
+  margin:0 auto;
+  padding:10px;
+  }
+
+
+li{
+  text-decoration:none;
+}
+
+@media (max-width:480px){
+  h1,li span{
+    display:none;
+  }
+
+  header{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   height:120px;
+   max-width:480px;
+  }
+  header ul{
+    display:flex;
+    justify-content:space-around;
+  }
+
+  }
+  nav li{
+    margin-top:24px;
+    padding:10px;
+
+  }
+
+  i{
+    height:50px;
+    width:30px;
+  }
+}
+
+ @media (min-width:480px) and (max-width:768px){
+
+  h1, nav span {
+    display:none;
+  }
+
+  body{
+    display:flex;
+    background-color:grey;
+  }
+  header{
+    text-align:center;
+  }
+
+   i{width:100%;color:white;}
+}
+
+
+@media (min-width:768px) and (max-width:980px){
+
+  h1, nav span {
+    display:none;
+  }
+
+  body{
+    display:block;
+    background-color:grey;
+  }
+  header{
+    text-align:center;
+  }
+
+   i{width:100%;color:white;}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/1328554/screen-max480px.png */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/1328554/screen-481-767px.png */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/1328554/screen-min768px.png */

@@ -1,0 +1,51 @@
+.road{
+  display:block;
+  width:100px;
+  height:660px;
+  background-color:black;
+}
+
+.road1{
+  display:block;
+  width:100px;
+  height:660px;
+  background-color:black;
+}
+
+.road2{
+  display:block;
+  width:100px;
+  height:660px;
+  background-color:black;
+}
+
+.line{
+  border:1px dashed black;
+}
+
+.flx{
+  display: flex;
+}
+
+.two{
+  display: flex;
+}
+.three{
+  display: flex;
+}
+
+.car{
+  height:120px;
+  width:80px;
+  position: absolute;
+  bottom:0;
+
+}
+
+
+button{
+  background:blue;
+  color:white;
+  margin:1px;
+  border:none;
+}

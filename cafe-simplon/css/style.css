@@ -1,0 +1,145 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  width: 1140px;
+  max-width: calc(100% - 24px);
+  margin: 24px auto 0;
+}
+a {
+  text-decoration: none;
+}
+.logo a {
+  color: inherit;
+}
+.subtitle {
+  font-weight: 300;
+  font-style: italic;
+}
+.page-header__title {
+  font-size: calc(24px + 3vw);
+  margin: 0;
+}
+.page-header__subtitle {
+  font-size:calc(16px + 1vw);
+}
+img {
+  max-width: 100%;
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.row {
+  margin: 48px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrap {
+    max-width: 960px;
+}
+.card {
+  text-align: center;
+  background: #f1f1f1;
+  padding: 48px;
+  min-width: 240px;
+  flex: 1;
+  margin-bottom: 24px;
+}
+.card__img {
+  margin-bottom: 24px;
+}
+.nav__ul,
+.logo {
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.nav__ul {
+  text-align: right;
+}
+.nav--top .nav__li {
+  display: inline-block;
+}
+.page-header {
+  text-align: center;
+  background-size: cover;
+  color: #fff;
+  background-blend-mode: multiply;
+  margin-bottom: 48px;
+}
+.page-accueil .page-header {
+  padding: 96px 48px;
+  background: rgba(0, 0, 0, .4) url(https://unsplash.it/1200/800?image=999) no-repeat center center;
+}
+.page-boutique .page-header {
+  padding: 96px 48px;
+  background: rgba(0, 0, 0, .4) url(https://unsplash.it/1200/800?image=431) no-repeat center center;
+}
+.light {
+  border: 1px solid;
+  padding: 48px ;
+  margin-bottom: 48px;
+}
+button,
+.button {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid;
+  color: inherit;
+  font-family: inherit;
+  padding: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+  transition: .5s;
+  cursor: pointer;
+}
+button:hover,
+.button:hover {
+  background: goldenrod;
+  color: #fff;
+  border-color: goldenrod;
+}
+.title {
+  text-align:center;
+}
+.title:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 48px;
+  margin: 24px auto;
+  border-bottom: 2px solid;
+}
+.dark {
+  /*text-align: center;*/
+  padding: 3rem;
+  background: #111111;
+  color: #fff;
+}
+.nav__li {
+  margin: 0 8px;
+}
+.nav__li a {
+  color: inherit;
+  transition: 0.5s;
+}
+.nav__li a:hover,
+.nav__li .active {
+  color: goldenrod;
+}
+.new-line {
+  display: block;
+}
+.site-footer {
+  padding: 24px;
+  text-align: center;
+}

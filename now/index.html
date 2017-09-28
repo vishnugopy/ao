@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Elodie Berger</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- Icon Fonts -->
+  <script src="https://use.fontawesome.com/64906f59e1.js"></script>
+  <!-- Theme CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+  <link rel="icon" href="imgs/ico.png">
+</head>
+<body>
+  <div class="topbar">
+    <div class="navin">
+      <div>
+        <a href="#home" class="big">EB</a>
+      </div>
+      <div>
+        <a href="#apropos" class="">Apropos</a>
+        <a href="#projects" class="">Projects</a>
+        <a href="#interview" class="">Interview</a>
+        <a href="#contact" class="">Contact</a>
+      </div>
+    </div>
+  </div>
+  <!-- Header -->
+  <header class=""id="home">
+    <img src="imgs/headerr.png" alt="" height="500px">
+</header>
+<!-- About Section -->
+<section class="boss" id="apropos">
+  <h2 class="bot">A PROPOS</h2>
+  <p>Aujourd'hui Elodie est freelance depuis 2010, elle partage son temps entre la Dordogne et la région parisienne.
+    Auparavant webmaster de sites éditoriaux, elle à travaillé pour des titres de presse comme Historia, La Recherche, Le Magazine Littéraire ou encore 01 Informatique.
+    Elle l'accompagne les PME (petites et moyennes entreprises) dans leur développement de site internet et effectue des missions d'intégration html/css sur différents projets.
+  </p>
+</section>
+<section class="up" >
+  <div id="projects">
+    <h2 class="bot" >PROJECTS</h2>
+  </div>
+  <div class="par">
+<div class="image">
+      <img class="path" src="imgs/1.png" alt="House" >
+      <p>PRÊT À PARTIR AUTOCARS</p>
+    </div>
+<div class="image">
+      <p>GÎTES DE LA BLÉNIE</p>
+      <img class="path" src="imgs/2.png" alt="House" >
+    </div>
+  <div class="image">
+      <p>GROUPE SARTAR</p>
+      <img class="path" src="imgs/3.png" alt="House" >
+    </div>
+<div class="image">
+      <p>LES GOURMANDISES DE LUCCO</p>
+      <img class="path" src="imgs/4.png" alt="House" >
+    </div>
+<div class="image">
+      <p>THÉRAVITA</p>
+      <img class="path" src="imgs/5.png" alt="House" >
+    </div>
+<div class="image">
+      <p>FOCUS</p>
+      <img class="path" src="imgs/6.png" alt="House" >
+    </div>
+<div class="image">
+      <p>CAMPING LOU CASTEL</p>
+      <img class="path" src="imgs/7.png" alt="House" >
+    </div>
+<div class="image">
+      <p>INFLUENCE</p>
+      <img class="path" src="imgs/8.png" alt="House" >
+    </div>
+  </div>
+</section>
+<section class="" id="interview">
+
+    <h2 class="bot">ENTRETIEN</h2>
+    <h3>Elodie Berger Freelance</h3>
+    <ol>
+      <li>Quelle est votre formation et quels sont vos diplômes ?</li>
+      <ul>
+        <li>éférencement naturel O. Duffez,Paris (2009)  </li>
+        <li>Master en marketing Ecole de Commerce ISEG,Paris (2007)
+          <li>Licence arts plastiques Université Toulouse Le Mirail,Toulouse (2003)
+            <li>BAC L mention assez bien Lycée Pré de Cordy,Sarlat (2000)</li>
+      </ul>
+
+  <li>Quelles sont les compétences requises ?</li>
+      <ul>
+        <li>Intégration HTML5 / CSS3 - Développement front-end</li>
+        <li>  Bases langages PHP, Flash et CMS Joomla, eZpublish</li>
+        <li>Bon niveau d'anglais</li>
+      </ul>
+        <li>Quelle logiciels utilises vous ?</li>
+        <ul>
+          <li>mac</li>
+        </ul>
+          <li>Quelle éditer de texte utilises vous ?</li>
+          <ul>
+            <li>  brackets</li>
+          </ul>
+      </ol>
+
+      </section>
+      <!-- Contact Section -->
+      <section class="" id="contact">
+        <h2 class="bot">CONTACTS</h2>
+        <p>Parler de votre prochain projet.</p>
+<div class="two">
+          <div class="center">
+            <form>
+              <input class="" type="text" placeholder="Nom" required name="Nom">
+              <input class="" type="text" placeholder="E-mail" required name="E-mail">
+              <input class="" type="text" placeholder="Sujet" required name="Sujet">
+              <input class="" type="text" placeholder="Commentaire" required name="Commentaire">
+              <button class="" type="submit">
+                <i class="fa fa-paper-plane"></i> Envoyer le message
+              </button>
+            </form>
+          </div>
+      </section>
+      <style>
+
+      #map {
+        height:300px;
+        margin:10px;
+      }
+   </style>
+
+   <div id="map"></div></div>
+   <script>
+     var map;
+     function initMap() {
+       map = new google.maps.Map(document.getElementById('map'), {
+         center: {lat: -34.397, lng: 150.644},
+         zoom: 8
+       });
+     }
+   </script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfdEExMDpwF-KkbOgyX6U6XiKezfzdePs&callback=initMap"
+   async defer></script>
+
+    <!-- Footer -->
+      <footer class="">
+        <h4>&copy;Nicolas&VishnuGopy</h4>
+      </footer>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    </body>
+    </html>

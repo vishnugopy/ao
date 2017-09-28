@@ -1,0 +1,88 @@
+body{
+    background-image:url(../imgs/back.png);
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+  margin-right:88px;
+  color:  #5f5f5f;
+  font-size: 16px;/* Approximation causée par une substitution de police */
+  line-height: 22px;/* Approximation causée par une substitution de police */
+  text-align: left;
+  text-shadow: 0px 1px 0px #fdfcfc;
+}
+
+.frame{
+  border-radius: 4px;
+  background-color:  #fdfbfb;
+  box-shadow: 1px 2px 3px 0px rgba(175, 175, 175, 0.4);
+  width: 278px;
+  height: 288px;
+}
+
+.first{
+  width: 258px;
+  height: 168px;
+}
+
+.four{
+  width: 74px;
+  height: 74px;
+}
+
+
+.big{
+  border-style: solid;
+border-width: 1px;
+border-color:  #d06329;
+box-sizing: border-box;
+background: -webkit-linear-gradient(90deg, #bd6336 0%, #fba75c 100%);
+background: -moz-linear-gradient(90deg, #bd6336 0%, #fba75c 100%);
+background: -o-linear-gradient(90deg, #bd6336 0%, #fba75c 100%);
+background: -ms-linear-gradient(90deg, #bd6336 0%, #fba75c 100%);
+background: linear-gradient(0deg, #bd6336 0%, #fba75c 100%);
+width: 72px;
+height: 69px;
+}
+
+.two{
+  display: flex;
+  flex-direction: row;
+  margin-top:229px;
+  margin-left:165px;
+}
+
+
+h2{
+  font-family: Rokkitt;
+color:  #f87f12;
+font-size: 20px;/* Approximation causée par une substitution de police */
+font-weight: 700;
+line-height: 22px;/* Approximation causée par une substitution de police */
+text-align: justify;
+text-shadow: 0px 1px 0px #fffcfc;
+}
+
+p{
+  font-family: Rokkitt;
+color:  #838282;
+font-size: 14px;/* Approximation causée par une substitution de police */
+font-weight: 400;
+line-height: 22px;/* Approximation causée par une substitution de police */
+text-align: justify;
+}
+
+.last{
+  color:#f87f12;
+}
+
+.pak{
+  margin-right:44px;
+}

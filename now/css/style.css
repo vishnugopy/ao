@@ -1,0 +1,124 @@
+body{
+  width:100%;
+  background:black;
+  color:white;
+  height: 100%;
+}
+
+
+.topbar{
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width:100%;
+  z-index:3;
+  border-bottom:1px solid yellow;
+}
+header{
+  background-image:url(../imgs/header.png);
+  height:500px;
+  background-position:center;
+}
+.bot{
+  border-bottom:2px solid yellow;
+}
+section,header{
+  padding:24px;
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top:200px;
+  color:blue;
+}
+.navin{
+  padding:18px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.par{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.path{
+  width:500px;
+  height:300px;
+  padding:10px;
+}
+form{
+  display: flex;
+  flex-direction:column;
+}
+form button{
+  width:300px;
+  margin:10px;
+  background:yellow;
+  border:none;
+}
+form input{
+  width:300px;
+  margin:10px;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  margin-right:10px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.big{
+  font-size:20px;
+}
+
+.flot{
+  float: left;
+}
+.image {
+   position: relative;
+   border:1px solid white;
+   margin:10px;
+}
+
+.up p{
+   position: absolute;
+   left: 10px;
+   bottom:0;
+   width:480px;
+   color:white;
+   font-size:28px;
+   background: rgba(0, 0, 0, 0.7);
+}
+
+p{
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+h2{
+  font-family: 'Source Serif Pro', serif;
+}
+
+.center{
+  display:flex;
+  justify-content: center;
+}
+.boss p{
+  text-align: center;
+}
+
+footer{
+  border-top:1px solid yellow;
+}

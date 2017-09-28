@@ -1,0 +1,68 @@
+html{
+  text-transform: uppercase;
+
+}
+body{
+font-family: 'Oswald', sans-serif;
+}
+video{
+ position: fixed;
+ top:0;
+ left:0;
+ object-fit: fill;
+ width: 100%;
+ height: 100vh;
+ z-index:-1;
+
+}
+
+
+.page-header {
+  color:white;
+}
+
+.black{
+  color:white;
+}
+
+
+@media (min-width: 768px) {
+  .page-header {
+    min-height: 100vh;
+  }
+}
+figure {
+ overflow: hidden;
+ position: relative;
+ margin:0;
+}
+
+figure a {
+ display: block; width="300" height="200"
+ overflow: hidden;
+ background: black;
+}
+
+.img-effect {
+ transition: 1s;
+}
+
+figure:hover .img-effect {
+ transform: scale(1.25);
+ opacity: 0.5;
+}
+
+figcaption {
+ position: absolute;
+ bottom: 16px;
+ left: 16px;
+ color: white;
+ opacity: 0;
+ transition: 1s;
+ transform: translateY(-50px) scale(2) rotate(-25deg);
+}
+
+figure:hover figcaption {
+ opacity: 1;
+ transform: translateY(0);
+}
